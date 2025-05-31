@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "EXPO_NO_TELEMETRY=1 npx expo start",
-    "dev:web": "EXPO_NO_TELEMETRY=1 npx expo start --web",
+    "dev": "EXPO_NO_TELEMETRY=1 NODE_OPTIONS='--experimental-vm-modules' npx expo start",
+    "dev:web": "EXPO_NO_TELEMETRY=1 NODE_OPTIONS='--experimental-vm-modules' npx expo start --web",
     "build:web": "npx expo export --platform web",
     "server": "tsx server/index.ts",
     "dev:all": "concurrently \"npm run dev\" \"npm run server\"",
