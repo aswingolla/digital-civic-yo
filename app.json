@@ -33,8 +33,7 @@
       [
         "expo-router",
         {
-          "origin": "/",
-          "webRouting": "hash"
+          "origin": "/"
         }
       ]
     ],
