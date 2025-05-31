@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build:web"
-  publish = "dist"
+  base = "web"
+  command = "npm run build"
+  publish = ".next"
   functions = "netlify/functions"
 
 [build.environment]
@@ -13,10 +14,10 @@
   status = 200
 
 [dev]
-  command = "npm run dev:web"
-  targetPort = 19006
+  command = "npm run dev"
+  targetPort = 3000
   port = 8888
-  publish = "dist"
+  publish = ".next"
 
 [[headers]]
   for = "/*"
