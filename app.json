@@ -30,7 +30,13 @@
       "favicon": "./assets/civic_yo_icon.png"
     },
     "plugins": [
-      "expo-router"
+      [
+        "expo-router",
+        {
+          "origin": "/",
+          "webRouting": "hash"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
