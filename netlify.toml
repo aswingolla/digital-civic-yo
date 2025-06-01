@@ -15,8 +15,7 @@
 [[plugins]]
   package = "netlify-plugin-a11y"
   [plugins.inputs]
-    # Increase timeout to 100 seconds
-    pa11yTimeout = 100000
+    testMode = true
 
 [[redirects]]
   from = "/*"
