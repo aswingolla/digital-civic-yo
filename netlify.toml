@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build:web"
-  publish = "web/.next"
+  base = "web"
+  command = "npm run build"
+  publish = ".next"
   
 [build.environment]
   NODE_VERSION = "18"
@@ -9,7 +10,11 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# Headers to ensure proper security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
