@@ -1,11 +1,9 @@
-import { PulseSection } from '@/components/pulse/pulse-section';
+import React from 'react';
 
-export default function HomePage() {
+export default function Page() {
   return (
-    <main className="min-h-screen bg-background">
-      <div className="container mx-auto px-4 py-8">
-        <PulseSection />
-      </div>
-    </main>
+    <div className="min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold">Welcome to Civic Yo</h1>
+    </div>
   );
 }
