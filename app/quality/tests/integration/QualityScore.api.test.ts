@@ -1,4 +1,4 @@
-import { fetchQualityScore, updateQualityScore } from '../../api/quality';
+import { fetchQualityScore, updateQualityScore } from '@/utils/api';
 
 describe('Quality Score API Integration', () => {
   const mockBusinessId = 'test-business-123';
