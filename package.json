@@ -5,10 +5,12 @@
   "private": true,
   "scripts": {
     "dev": "EXPO_NO_TELEMETRY=1 NODE_OPTIONS='--experimental-vm-modules' npx expo start --web",
-    "build:web": "npx expo export --platform web",
-    "start:web": "npx serve web-build",
+    "dev:web": "cd web && npm run dev",
+    "build:web": "cd web && npm run build",
+    "start:web": "cd web && npm run start",
     "lint": "npx expo lint",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "cd web && npm install"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.3",
