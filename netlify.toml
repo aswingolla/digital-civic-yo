@@ -12,11 +12,6 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-[[plugins]]
-  package = "netlify-plugin-a11y"
-  [plugins.inputs]
-    testMode = true
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
