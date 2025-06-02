@@ -13,7 +13,7 @@
     "postinstall": "cd web && npm install"
   },
   "dependencies": {
-    "@expo-google-fonts/inter": "^0.2.3",
+    "@expo-google-fonts/inter": "^0.4.1",
     "@expo/vector-icons": "^14.0.0",
     "@lucide/lab": "^0.1.2",
     "expo": "~50.0.7",
