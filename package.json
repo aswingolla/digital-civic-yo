@@ -23,7 +23,7 @@
     "lucide-react-native": "^0.344.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "0.73.4",
+    "react-native": "0.79.3",
     "react-native-reanimated": "~3.6.2",
     "react-native-gesture-handler": "~2.14.0",
     "react-native-web": "~0.19.6"
