@@ -37,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "90d54407-9750-455e-b89e-c4fbf1fc637b"
+      }
+    },
+    "owner": "aswgolla"
   }
 }
