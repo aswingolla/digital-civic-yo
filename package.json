@@ -4,13 +4,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "EXPO_NO_TELEMETRY=1 NODE_OPTIONS='--experimental-vm-modules' npx expo start --web",
-    "dev:web": "cd platform/web && npm run dev",
-    "build:web": "cd platform/web && npm run build",
-    "start:web": "cd platform/web && npm run start",
+    "dev": "EXPO_NO_TELEMETRY=1 NODE_OPTIONS='--experimental-vm-modules' npx expo start",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "expo build",
     "lint": "npx expo lint",
-    "test": "jest",
-    "postinstall": "cd platform/web && npm install"
+    "test": "jest"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.3",
