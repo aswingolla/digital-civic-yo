@@ -15,14 +15,17 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.civic.yo",
       "supportsTablet": true,
       "icon": "./assets/civic_yo_icon.png"
     },
     "android": {
+      "bundleIdentifier": "com.civic.yo",
       "adaptiveIcon": {
         "foregroundImage": "./assets/civic_yo_icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.civic.yo"
     },
     "web": {
       "output": "server",
