@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/community/events/route": "app/api/community/events/route.js",
+  "/api/places/route": "app/api/places/route.js",
+  "/api/community/discussions/route": "app/api/community/discussions/route.js",
+  "/api/pulse/route": "app/api/pulse/route.js",
+  "/page": "app/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/community/page": "app/community/page.js",
+  "/map/page": "app/map/page.js",
+  "/quality/page": "app/quality/page.js",
+  "/pulse/page": "app/pulse/page.js"
+}

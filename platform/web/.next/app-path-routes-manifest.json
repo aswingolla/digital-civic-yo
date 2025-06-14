@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/community/events/route": "/api/community/events",
+  "/api/places/route": "/api/places",
+  "/api/community/discussions/route": "/api/community/discussions",
+  "/api/pulse/route": "/api/pulse",
+  "/page": "/",
+  "/auth/login/page": "/auth/login",
+  "/auth/signup/page": "/auth/signup",
+  "/community/page": "/community",
+  "/map/page": "/map",
+  "/quality/page": "/quality",
+  "/pulse/page": "/pulse"
+}
