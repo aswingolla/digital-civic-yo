@@ -29,7 +29,8 @@
       "favicon": "./assets/civic_yo_icon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "@logrocket/react-native"
     ],
     "experiments": {
       "typedRoutes": true
