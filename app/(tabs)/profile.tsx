@@ -1,7 +1,7 @@
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
-import { Settings, Edit3, Star, MapPin, Award, ChevronRight, User, Bell, Shield, HelpCircle, LogOut } from 'lucide-react-native';
+import { Settings, CreditCard as Edit3, Star, MapPin, Award, ChevronRight, User, Bell, Shield, HelpCircle, LogOut } from 'lucide-react-native';
 
 export default function ProfileScreen() {
   const userStats = [

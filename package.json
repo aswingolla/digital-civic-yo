@@ -17,6 +17,7 @@
     "@expo/vector-icons": "^14.0.0",
     "@lucide/lab": "^0.1.2",
     "expo": "~52.0.30",
+    "expo-constants": "~17.0.3",
     "expo-router": "~4.0.17",
     "expo-splash-screen": "~0.29.16",
     "expo-status-bar": "~2.0.0",
