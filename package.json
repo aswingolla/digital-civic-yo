@@ -47,6 +47,7 @@
     "@babel/core": "^7.25.2",
     "@testing-library/react-native": "^12.4.2",
     "@types/react": "~18.2.45",
+    "expo-cli": "^6.3.12",
     "typescript": "^5.3.0"
   }
 }

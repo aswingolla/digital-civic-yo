@@ -1,7 +1,7 @@
 [build]
   base = "web"
-  command = "npm run build"
-  publish = ".next"
+  command = "expo build:web"
+  publish = "web-build"
   functions = "netlify/functions"
 
 [build.environment]
