@@ -310,7 +310,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.civic.yo;
-				PRODUCT_NAME = civicyo;
+				PRODUCT_NAME = "civicyo";
 				SWIFT_OBJC_BRIDGING_HEADER = "civicyo/civicyo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -340,7 +340,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.civic.yo;
-				PRODUCT_NAME = civicyo;
+				PRODUCT_NAME = "civicyo";
 				SWIFT_OBJC_BRIDGING_HEADER = "civicyo/civicyo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

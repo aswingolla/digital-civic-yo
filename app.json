@@ -20,7 +20,6 @@
       "icon": "./assets/civic_yo_icon.png"
     },
     "android": {
-      "bundleIdentifier": "com.civic.yo",
       "adaptiveIcon": {
         "foregroundImage": "./assets/civic_yo_icon.png",
         "backgroundColor": "#ffffff"
@@ -33,7 +32,8 @@
     },
     "plugins": [
       "expo-router",
-      "@logrocket/react-native"
+      "@logrocket/react-native",
+      "expo-build-properties"
     ],
     "experiments": {
       "typedRoutes": true
