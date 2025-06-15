@@ -28,6 +28,7 @@
     },
     "web": {
       "output": "server",
+      "bundler": "metro",
       "favicon": "./assets/civic_yo_icon.png"
     },
     "plugins": [
