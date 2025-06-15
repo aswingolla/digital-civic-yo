@@ -1,10 +1,6 @@
 # dependencies
 node_modules/
 
-#nextjs
-.next/
-out/
-
 # expo
 .expo/
 dist/
@@ -37,3 +33,9 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+ios/Run
+Could
+Get
+Run
+ios/Configure
+ios/Get
