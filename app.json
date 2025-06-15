@@ -15,6 +15,7 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.civic.yo",
       "supportsTablet": true,
       "icon": "./assets/civic_yo_icon.png"
     },
@@ -22,17 +23,30 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/civic_yo_icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.civic.yo"
     },
     "web": {
-      "output": "static",
+      "output": "server",
+      "bundler": "metro",
       "favicon": "./assets/civic_yo_icon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "@logrocket/react-native",
+      "expo-build-properties"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "90d54407-9750-455e-b89e-c4fbf1fc637b"
+      }
+    },
+    "owner": "aswgolla"
   }
 }

@@ -42,11 +42,8 @@ export default function LoginScreen() {
     try {
       // In a real app, this would verify credentials with an API
       await signIn({ 
-        id: 'user123', 
         email,
-        phoneNumber: mobileNumber || undefined,
-        isVerified: true,
-        neighborhood: 'Downtown'
+        password: 'dummy' // This would be handled properly in a real app
       });
       
       router.replace('/(tabs)');
